@@ -1,0 +1,17 @@
+com\mycompany\proje\manager\PatientManager.class
+com\mycompany\proje\repository\Laborant.class
+com\mycompany\proje\controller\PatientController.class
+com\mycompany\proje\request\UpdateRaporRequest.class
+com\mycompany\proje\repository\LaborantRepository.class
+com\mycompany\proje\repository\ReportRepository.class
+com\mycompany\proje\request\CreateRaporRequest.class
+com\mycompany\proje\mapper\ModelMapperService.class
+com\mycompany\proje\request\FindRaporRequest.class
+com\mycompany\proje\Proje.class
+com\mycompany\proje\repository\Report.class
+com\mycompany\proje\repository\Patient.class
+com\mycompany\proje\repository\PatientRepository.class
+com\mycompany\proje\mapper\ModelMapperManager.class
+my\company\proje\response\GetAllReportResponse.class
+mycompany\proje\service\PatientService.class
+my\company\proje\response\FindReportResponse.class
