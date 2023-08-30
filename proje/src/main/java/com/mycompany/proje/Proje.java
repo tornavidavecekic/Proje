@@ -4,7 +4,6 @@
 
 package com.mycompany.proje;
 
-import com.mycompany.proje.repository.HastaRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -18,20 +18,22 @@ import lombok.NoArgsConstructor;
  *
  * @author canca
  */
-@Table(name = "laborant")
+@Table(name = "hasta")
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Laborant {
+public class Patient {
     @Id
-    @Column(name = "laborant_no")
-    int laborantNo;
+    @Column(name = "tckimlik")
+    int tcKimlik;
+    @Column(name = "dosya_no")
+    int dosyaNo;
     @Column(name = "ad")
     String name;
-    @Column(name = "surname")
+    @Column(name = "soyad")
     String surname;
     
-    @OneToMany(mappedBy = "laborant_no")
+    @OneToMany(mappedBy = "tckimlik")
     List<Report> report;
 }
